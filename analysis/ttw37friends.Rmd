@@ -49,7 +49,7 @@ episodesmonth <- table(lubridate::month(friends_info$air_date, label = TRUE)) %>
 ## First visualization
 - number of episodes per month
 
-```{r message=FALSE, warning=FALSE}
+```{r vis1, message=FALSE, warning=FALSE}
 p1 <- ggplot(episodesmonth, aes(Month, Freq)) +
   geom_segment( aes(x = Month, xend = Month, y = 0, yend = Freq)) +
   geom_point(size = 9) + scale_y_continuous(breaks = seq(0, 40, 10), limits=c(-1,45)) +  
@@ -105,7 +105,7 @@ month_levels <- c(
 ## Second visualization
 - IMDB ratings per month
 
-```{r message=FALSE, warning=FALSE}
+```{r vis2, message=FALSE, warning=FALSE}
 
 p2 <- ggplot(ratingsmonth, aes(factor(month, levels = month_levels), y=imdb_rating)) + 
   geom_violin(trim = FALSE, fill = "#ff4747") + 
