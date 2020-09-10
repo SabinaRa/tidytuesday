@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Kontakt"
 output:
   workflowr::wflow_html:
     toc: false
@@ -7,4 +7,5 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+E-mail: sabina.rako1@gmail.com
+Twitter: @ra_sabina

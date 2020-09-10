@@ -3,12 +3,12 @@ output_dir: ../docs
 navbar:
   title: "tidytuesday"
   left:
-  - text: Početna
+  - text: O stranici
     href: index.html
-  - text: Informacije
-    href: about.html
-  - text: Licencija
+  - text: Uvjeti korištenja
     href: license.html
+  - text: Kontakt
+    href: about.html
 output:
   workflowr::wflow_html:
     toc: yes
