@@ -96,10 +96,8 @@ ratingsmonth <-  friends_info %>%
   select(month, imdb_rating)  %>% 
   add_row(month = "Jun", imdb_rating = NULL) %>% 
   add_row(month = "Jul", imdb_rating = NULL) %>% 
-  add_row(month = "Aug", imdb_rating = NULL) %>% 
-  arrange(month)
+  add_row(month = "Aug", imdb_rating = NULL) 
 
-kable(ratingsmonth)
 ```
 
 ## Second visualization
