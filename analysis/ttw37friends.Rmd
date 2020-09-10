@@ -17,6 +17,7 @@ library(ggthemes)
 library(lubridate)
 library(mdthemes)
 library(patchwork)
+library(knitr)
 ```
 
 ## Loading data
@@ -41,6 +42,8 @@ friends_info$air_date <- lubridate::ymd(friends_info$air_date)
 episodesmonth <- table(lubridate::month(friends_info$air_date, label = TRUE)) %>% 
   as.data.frame() %>% 
   dplyr::rename(Month = Var1)
+
+kable(episodesmonth)
 ```
 
 ## First visualization
