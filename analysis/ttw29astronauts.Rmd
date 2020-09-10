@@ -60,7 +60,7 @@ p
 ```
 
 ## Adding annotation
-```{r message=FALSE, warning=FALSE}
+```{r final, message=FALSE, warning=FALSE}
 anndata <- astronauts %>% select(year_of_mission, sex, name, military_civilian) %>% filter(year_of_mission == 1963) %>% filter(sex=="female") %>%  mutate(name=replace(name, name =="Tereshkova, Valentina", "ValentinaTereshkova")) 
 
 
