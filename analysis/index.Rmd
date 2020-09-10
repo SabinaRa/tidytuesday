@@ -15,5 +15,6 @@ Na ovoj stranici nalazi se repozitorij mojih TidyTuesday objava (@ra_sabina).
 :::
 
 ## TidyTuesday Friends 2020-09-08
-
+[Programski kod](ttw37friends.html)
 ![Plot for TidyTuesday week 37 Friends](./results/PlotTTw37.png)
+
