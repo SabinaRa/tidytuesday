@@ -1,7 +1,7 @@
-name: "tidytuesday"
+name: tidytuesday
 output_dir: ../docs
 navbar:
-  title: "tidytuesday"
+  title: tidytuesday
   left:
   - text: O stranici
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: license.html
   - text: Kontakt
     href: about.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/SabinaRa/tidytuesday
 output:
   workflowr::wflow_html:
     toc: yes
