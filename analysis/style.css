@@ -12,3 +12,7 @@
     background-color: #bed3ec;
     border: solid 5px #dfedff;
   }
+  
+  div.note {
+  background-image: url("lightbulb.png");
+}
