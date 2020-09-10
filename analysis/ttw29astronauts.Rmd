@@ -71,6 +71,6 @@ p + geom_text(data = anndata, aes(label = name), x = 1960, y = 32, parse = TRUE,
 ## Saving plot
 ```{r message=FALSE, warning=FALSE}
 
-ggsave("PlotTTw29.png", path= "./docs/results", dpi = 700,)
+ggsave("PlotTTw29.png", path= "./docs/results", dpi = 700)
 ```
 
