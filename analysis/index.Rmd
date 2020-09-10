@@ -26,4 +26,4 @@ Programski kod nalazi se u ovoj [datoteci](ttw29astronauts.html).
 
 Rezultat
 ![Plot](figure/ttw29astronauts.Rmd/final-1.png)
-.
+
