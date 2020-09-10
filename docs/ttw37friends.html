@@ -492,16 +492,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong0bfd8e6"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> 0bfd8e6 </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong0e1e2a1"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> 0e1e2a1 </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrong0bfd8e6" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrong0e1e2a1" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version 0bfd8e6. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version 0e1e2a1. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -547,6 +547,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+0e1e2a1
+</td>
+<td>
+Sabina Rako
+</td>
+<td>
+2020-09-10
+</td>
+<td>
+Added ttw37
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+e1d5278
+</td>
+<td>
+Sabina Rako
+</td>
+<td>
+2020-09-10
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -867,44 +901,7 @@ p1 &lt;- p1 +
              arrow = arrow(length = unit(2, &quot;mm&quot;)))
 
 p1</code></pre>
-<p><img src="figure/ttw37friends.Rmd/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
-<p>
-<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-4-1">
-Past versions of unnamed-chunk-4-1.png
-</button>
-</p>
-<div id="fig-unnamed-chunk-4-1" class="collapse">
-<div class="table-responsive">
-<table class="table table-condensed table-hover">
-<thead>
-<tr>
-<th>
-Version
-</th>
-<th>
-Author
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-e5a1377
-</td>
-<td>
-Sabina Rako
-</td>
-<td>
-2020-09-10
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+<p><img src="figure/ttw37friends.Rmd/vis1-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
 <div id="preparing-data-1" class="section level2">
 <h2>Preparing data</h2>
@@ -948,13 +945,19 @@ p2 &lt;- p2  +
     arrow = arrow(length = unit(2, &quot;mm&quot;)))
 
 p2</code></pre>
-<p><img src="figure/ttw37friends.Rmd/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="figure/ttw37friends.Rmd/vis2-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="combining-and-saving-plot" class="section level2">
+<h2>Combining and saving plot</h2>
+<pre class="r"><code>p1 + p2 + 
+  labs(caption = &quot;Data source: ceros interactive article &amp; Emil Hvitfeldt Vis: @ra_sabina&quot;)</code></pre>
+<p><img src="figure/ttw37friends.Rmd/combined-1.png" width="1344" style="display: block; margin: auto;" /></p>
 <p>
-<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-6-1">
-Past versions of unnamed-chunk-6-1.png
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-combined-1">
+Past versions of combined-1.png
 </button>
 </p>
-<div id="fig-unnamed-chunk-6-1" class="collapse">
+<div id="fig-combined-1" class="collapse">
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
 <thead>
@@ -973,7 +976,7 @@ Date
 <tbody>
 <tr>
 <td>
-e5a1377
+e1d5278
 </td>
 <td>
 Sabina Rako
@@ -986,12 +989,6 @@ Sabina Rako
 </table>
 </div>
 </div>
-</div>
-<div id="combining-and-saving-plot" class="section level2">
-<h2>Combining and saving plot</h2>
-<pre class="r"><code>p1 + p2 + 
-  labs(caption = &quot;Data source: ceros interactive article &amp; Emil Hvitfeldt Vis: @ra_sabina&quot;)</code></pre>
-<p><img src="figure/ttw37friends.Rmd/combined-1.png" width="1344" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>ggsave(&quot;PlotTTw37.png&quot;,  dpi = 700, width = 14)</code></pre>
 <br>
 <p>
