@@ -19,11 +19,11 @@ Ova je stranica mjesto na kojoj se nalazi moj doprinos TidyTuesday zajednici.
 Programski kod nalazi se u ovoj [datoteci](ttw37friends.html).
 
 Rezultat
-![Plot](results/PlotTTw37.png)
+![Plot](docs/results/PlotTTw37.png)
 
 ## TidyTuesday Astronauts 2020-07-14
 Programski kod nalazi se u ovoj [datoteci](ttw29astronauts.html).
 
 Rezultat
-![Plot](results/PlotTTw29.png)
+![Plot](docs/results/PlotTTw29.png)
 
