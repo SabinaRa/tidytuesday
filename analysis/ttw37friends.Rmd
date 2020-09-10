@@ -98,15 +98,17 @@ ratingsmonth <-  friends_info %>%
   add_row(month = "Jul", imdb_rating = NULL) %>% 
   add_row(month = "Aug", imdb_rating = NULL) 
 
-month_levels <- c(
-  "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
-  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+kable(ratingsmonth)
 ```
 
 ## Second visualization
 - IMDB ratings per month
 
 ```{r vis2, message=FALSE, warning=FALSE}
+
+month_levels <- c(
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 p2 <- ggplot(ratingsmonth, aes(factor(month, levels = month_levels), y=imdb_rating)) + 
   geom_violin(trim = FALSE, fill = "#ff4747") + 
