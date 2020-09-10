@@ -3,7 +3,6 @@
   div.note {
     padding: 1em;
     margin: 1em 0;
-    padding-left: 100px;
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: 15px center;
@@ -13,6 +12,3 @@
     border: solid 5px #dfedff;
   }
   
-  div.note {
-  background-image: url("lightbulb.png");
-}
