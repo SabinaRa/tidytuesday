@@ -12,7 +12,7 @@ editor_options:
 TidyTuesday aktivnost je kroz koju se nastoji potaknuti suradnja među zajednicom koja koristi R kao alat za analizu podataka. <br>
 Svakog ponedjeljka u mjesecu na službenom [GitHub repozitoriju](https://github.com/rfordatascience/tidytuesday) objavljuje se skup podataka kojeg je moguće analizirati. Skupovi podataka pokrivaju različita područja, od poljoprivrede, obrazovanja pa do popularnih emisija. Nekada su skupovi podataka manje uređeni pa je potrebno prethodno dodatno proučiti dostupne podatke. Ali u tome je i čar, zar ne? <br>
 Rezultati analize se objavljuju na Twitteru s oznakom #tidytuesday. Prilikom objave rezultata potiče se i objava popratnog programskog koda kako bi se olakšala razmjena znanja. Ovakav način učenja R-a je svakako poticajan i za preporuku. <br> 
-Na ovoj stranici nalazi se repozitorij mojih TidyTuesday objava (@ra_sabina). 
+Ova je stranica mjesto na kojoj se nalazi moj doprinos TidyTuesday zajednici. 
 :::
 
 ## TidyTuesday Friends 2020-09-08
