@@ -13,6 +13,6 @@
     border: solid 5px #dfedff;
   }
   
-  div.note {
+  .note {
   background-image: url("lightbulb.png");
 }
