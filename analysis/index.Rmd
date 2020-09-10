@@ -20,4 +20,9 @@ Programski kod nalazi se u ovoj [Rmd datoteci](ttw37friends.html).
 
 Rezultat
 ![Plot](figure/ttw37friends.Rmd/combined-1.png)
+## TidyTuesday Astronauts 2020-07-14
+Programski kod nalazi se u ovoj [R datoteci](ttw37friends.html).
+
+Rezultat
+![Plot](figure/ttw37friends.Rmd/combined-1.png)
 
