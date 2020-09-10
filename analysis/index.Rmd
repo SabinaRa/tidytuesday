@@ -15,5 +15,6 @@ Na ovoj stranici nalazi se repozitorij TidyTuesday objava (@ra_sabina).
 
 ## TidyTuesday Friends 2020-09-08
 ### [Programski kod](ttw37friends.html)
+Rezultat
 ![Plot](figure/ttw37friends.Rmd/combined-1.png)
 
