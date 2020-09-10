@@ -13,3 +13,7 @@ TidyTuesday je aktivnost R zajednice kroz koju se nastoji potaknuti suradnju izm
 TidyTuesday je uspješan primjer društvenog učenja.  <br>
 Na ovoj stranici nalazi se repozitorij mojih TidyTuesday objava (@ra_sabina). 
 :::
+
+## TidyTuesday Friends 2020-09-08
+
+![Plot for TidzTuesday week 37 Friends](results/PlotTTw37.png)
