@@ -133,13 +133,13 @@ p2
 
 ## Combining and saving plot
 
-```{r fig.height=6, fig.width=14, message=FALSE, warning=FALSE}
+```{r combined, fig.height=6, fig.width=14, message=FALSE, warning=FALSE}
 p1 + p2 + 
   labs(caption = "Data source: ceros interactive article & Emil Hvitfeldt Vis: @ra_sabina")
 ```
 
 
-```{r message=FALSE, warning=FALSE}
+```{r final, message=FALSE, warning=FALSE}
 ggsave("PlotTTw37.png",  dpi = 700, width = 14)
 
 ```
