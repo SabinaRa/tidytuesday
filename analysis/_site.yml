@@ -3,15 +3,15 @@ output_dir: ../docs
 navbar:
   title: "tidytuesday"
   left:
-  - text: Home
+  - text: Početna
     href: index.html
-  - text: About
+  - text: Informacije
     href: about.html
-  - text: License
+  - text: Licencija
     href: license.html
 output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
+    theme: cerulean
     highlight: textmate
